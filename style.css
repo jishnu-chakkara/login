@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background: url(./bg.jpg)no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    position: relative;
+    margin-top: 100px;
+    width: 450px;height: auto;
+    background: #dedede;
+    border-radius: 5px;
+}
+.label{
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #130f40;
+}
+.form{padding: 20px 40px;}
+.form.font
+{
+    font-size: 18px;
+    color: #130f40;
+    margin: 50px 0;
+
+}
+.form input{
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;border: 1px solid silver;
+}
+.form.form.font2{
+    margin-top: 30px;
+}
+.form button{
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 365px;font-size: 20px;
+    color: antiquewhite;outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #1a237e;
+
+}
